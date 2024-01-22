@@ -1,0 +1,1 @@
+﻿SELECT Sum(X) FROM Circles 
