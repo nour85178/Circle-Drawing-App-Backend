@@ -8,17 +8,6 @@ using System.Configuration;
 var builder = WebApplication.CreateBuilder(args);
 
 
-/*var host = new WebHostBuilder()
-.ConfigureServices(servicesCollection =>
-{
-    var serviceProvider = servicesCollection.BuildServiceProvider();
-    IConfiguration configuration = (IConfiguration)serviceProvider.GetService(typeof(IConfiguration));
-    
-})
-.UseStartup<Startup>()
-.Build();*/
-
-
 var connectionString = builder.Configuration.GetValue<string>("ConnectionStrings:DefaultConnection");
 builder.Services.AddDbContext<DataContext>(options =>
 {
@@ -63,12 +52,8 @@ app.UseRouting();
 
 app.UseEndpoints(endpoints =>
 {
-   
-    endpoints.MapControllerRoute(
-        name: "frontend",
-        pattern: "{*url}",
-        //defaults: new { controller = "CirclesController"});
-        defaults: new { controller = "Circles", action = "Index" });
+    endpoints.MapControllers();
+
 });
 
 app.Run();
