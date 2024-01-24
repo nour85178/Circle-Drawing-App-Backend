@@ -1,1 +1,2 @@
-﻿SELECT Sum(X) FROM Circles 
+﻿select * from Circles
+select TimeOfSubmission from 
