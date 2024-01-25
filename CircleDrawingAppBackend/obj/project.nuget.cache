@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G9Tm5vttOc/UYE/KLzquSdzQILle6xAYOsnXnOM8wMkkqqT7md+dbqX6AgGzHToeA+BD/kMkDehW0i8rgZd1Qg==",
+  "dgSpecHash": "ZA1BX2/O7F18Shblt8W3PYUl1PdLBVMjfHTdxhhh8FhWjLdAswbQlXBopI9yIh3p1oiqcDMma1A1od+PF45ihQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\NOUR\\AthensApp\\CircleDrawingApp\\CircleDrawingApp\\CircleDrawingApp.csproj",
+  "projectFilePath": "C:\\Users\\NOUR\\AthensApp\\CircleDrawingAppBack\\CircleDrawingApp\\CircleDrawingApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NOUR\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\NOUR\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

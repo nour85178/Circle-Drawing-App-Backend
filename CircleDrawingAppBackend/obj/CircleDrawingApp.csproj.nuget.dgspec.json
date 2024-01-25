@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NOUR\\AthensApp\\CircleDrawingApp\\CircleDrawingApp\\CircleDrawingApp.csproj": {}
+    "C:\\Users\\NOUR\\AthensApp\\CircleDrawingAppBack\\CircleDrawingApp\\CircleDrawingApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NOUR\\AthensApp\\CircleDrawingApp\\CircleDrawingApp\\CircleDrawingApp.csproj": {
+    "C:\\Users\\NOUR\\AthensApp\\CircleDrawingAppBack\\CircleDrawingApp\\CircleDrawingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NOUR\\AthensApp\\CircleDrawingApp\\CircleDrawingApp\\CircleDrawingApp.csproj",
+        "projectUniqueName": "C:\\Users\\NOUR\\AthensApp\\CircleDrawingAppBack\\CircleDrawingApp\\CircleDrawingApp.csproj",
         "projectName": "CircleDrawingApp",
-        "projectPath": "C:\\Users\\NOUR\\AthensApp\\CircleDrawingApp\\CircleDrawingApp\\CircleDrawingApp.csproj",
+        "projectPath": "C:\\Users\\NOUR\\AthensApp\\CircleDrawingAppBack\\CircleDrawingApp\\CircleDrawingApp.csproj",
         "packagesPath": "C:\\Users\\NOUR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NOUR\\AthensApp\\CircleDrawingApp\\CircleDrawingApp\\obj\\",
+        "outputPath": "C:\\Users\\NOUR\\AthensApp\\CircleDrawingAppBack\\CircleDrawingApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NOUR\\AppData\\Roaming\\NuGet\\NuGet.Config",

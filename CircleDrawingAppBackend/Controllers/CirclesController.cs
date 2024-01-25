@@ -7,21 +7,15 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-//An attribute indicating that this class is an API controller, and it should follow certain conventions for handling requests and responses.
 [ApiController]
 
-//Specifies the route template for the controller. In this case, it sets the base route to "api/Circles," where "Circles" is derived from the controller name.
 [Route("api/[controller]")]
 public class CirclesController : ControllerBase
 {
-    // a class representing the database context, allowing the controller to interact with the database.
     private DataContext _context;
 
-    // capturing various events, messages, and data points during the runtime of an application and storing them in a structured format, typically for analysis, debugging, and monitoring purposes. 
-    //is used for logging. The logger instance is stored in the private field _logger
     private readonly ILogger<CirclesController> _logger;
 
-    //a constructor that receives instances of DataContext and ILogger<CirclesController> through dependency injection.
     public CirclesController(DataContext context, ILogger<CirclesController> logger)
     {
         _context = context;
@@ -31,7 +25,6 @@ public class CirclesController : ControllerBase
     }
 
     [HttpPost]
-    //ensures that the application remains responsive to user input during these operations.
     public async Task<IActionResult> SubmitCircle(Circle circle)
     {
         
@@ -44,12 +37,7 @@ public class CirclesController : ControllerBase
             }
             return BadRequest(ModelState);
         
-        /*catch (Exception ex)
-        {
-            // Log the exception details for debugging
-            Console.WriteLine($"Exception in SubmitCircle: {ex}");
-            return StatusCode(500, "Internal Server Error");
-        }*/
+     
     }
 
 
@@ -75,7 +63,6 @@ public class CirclesController : ControllerBase
                 return StatusCode(500, "Internal Server Error");
             }
 
-            // Return an empty list explicitly
             return Ok(new List<Circle>());
     }
 
